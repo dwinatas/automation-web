@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Buy Product without Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>de3ebffc-cd5b-4533-8b9b-5c85df95d88c</testCaseGuid>
+</TestCaseEntity>

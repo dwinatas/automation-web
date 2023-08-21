@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Buy Product without Login,Chrome 116.0.0.0,,,2023-08-22 00:22:04,2023-08-22 00:26:15,4m - 10.227s,FAILED
+,,,,,,,
+Test Cases/Buy Product without Login,Chrome 116.0.0.0,,,2023-08-22 00:22:05,2023-08-22 00:26:15,4m - 9.849s,FAILED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-08-22 00:22:05,2023-08-22 00:22:36,30.843s,PASSED
+"navigateToUrl(""https://www.ruparupa.com/"")",Chrome 116.0.0.0,,,2023-08-22 00:22:36,2023-08-22 00:22:50,13.872s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-22 00:22:50,2023-08-22 00:22:54,4.279s,PASSED
+delay(10),Chrome 116.0.0.0,,,2023-08-22 00:22:54,2023-08-22 00:23:04,10.037s,PASSED
+takeScreenshot(),Chrome 116.0.0.0,,,2023-08-22 00:23:04,2023-08-22 00:23:06,1.887s,PASSED
+delay(30),Chrome 116.0.0.0,,,2023-08-22 00:23:06,2023-08-22 00:23:36,30.007s,PASSED
+"click(findTestObject(""Buy Product/Button - Dont Allow""))",Chrome 116.0.0.0,,,2023-08-22 00:23:36,2023-08-22 00:23:42,5.614s,PASSED
+"click(findTestObject(""Buy Product/Textfield - Pencarian""))",Chrome 116.0.0.0,,,2023-08-22 00:23:42,2023-08-22 00:23:50,8.487s,PASSED
+"setText(findTestObject(""Buy Product/Textfield - Pencarian""), ""Beli 1 Gratis 1"")",Chrome 116.0.0.0,,,2023-08-22 00:23:50,2023-08-22 00:23:58,7.332s,PASSED
+"click(findTestObject(""Buy Product/Button - Pencarian""))",Chrome 116.0.0.0,,,2023-08-22 00:23:58,2023-08-22 00:24:00,2.624s,PASSED
+delay(5),Chrome 116.0.0.0,,,2023-08-22 00:24:00,2023-08-22 00:24:05,5.005s,PASSED
+"verifyElementText(findTestObject(""Buy Product/Text - Beli 1 Gratis 1""), ""Beli 1 Gratis 1"")",Chrome 116.0.0.0,,,2023-08-22 00:24:05,2023-08-22 00:24:49,44.349s,PASSED
+"scrollToElement(findTestObject(""Buy Product/Text - Semua Diskon""), 0)",Chrome 116.0.0.0,,,2023-08-22 00:24:49,2023-08-22 00:24:51,1.935s,PASSED
+takeScreenshot(),Chrome 116.0.0.0,,,2023-08-22 00:24:51,2023-08-22 00:24:56,5.070s,PASSED
+"click(findTestObject(""Buy Product/Button - Filter""))",Chrome 116.0.0.0,,,2023-08-22 00:24:56,2023-08-22 00:25:00,3.487s,PASSED
+"click(findTestObject(""Buy Product/List - Product Terbaru""))",Chrome 116.0.0.0,,,2023-08-22 00:25:00,2023-08-22 00:25:29,29.495s,PASSED
+delay(5),Chrome 116.0.0.0,,,2023-08-22 00:25:29,2023-08-22 00:25:34,5.015s,PASSED
+"verifyElementPresent(findTestObject(""Buy Product/Image - Product 1""), 5)",Chrome 116.0.0.0,,,2023-08-22 00:25:34,2023-08-22 00:26:15,40.012s,FAILED
